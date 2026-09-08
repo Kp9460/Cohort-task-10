@@ -22,10 +22,10 @@ main{
         flex-grow: 1;
         transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
         cursor: pointer;
-    }
 
-    section:hover{
+        &:hover{
         flex-grow: 2.1;
+        }
     }
 
     section:nth-child(1){
